@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DDDa.Models.Cadastros
+namespace Modelo.DDDa.Cadastros
 {
     public class Fabricante
     {

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using DDDa.Contexts;
-using DDDa.Models.Tabelas;
+using Modelo.DDDa.Tabelas;
 
 namespace DDDa.Controllers
 {

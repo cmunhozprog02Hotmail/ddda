@@ -1,11 +1,8 @@
-﻿using DDDa.Models.Tabelas;
-using System;
-using System.Collections.Generic;
+﻿
+using Modelo.DDDa.Tabelas;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
-namespace DDDa.Models.Cadastros
+namespace Modelo.DDDa.Cadastros
 {
     public class Produto
     {

@@ -1,7 +1,8 @@
-﻿using DDDa.Models.Cadastros;
+﻿
+using Modelo.DDDa.Cadastros;
 using System.Collections.Generic;
 
-namespace DDDa.Models.Tabelas
+namespace Modelo.DDDa.Tabelas
 {
     public class Categoria
     {

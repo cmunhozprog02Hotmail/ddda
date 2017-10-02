@@ -1,5 +1,7 @@
-﻿using DDDa.Models.Cadastros;
-using DDDa.Models.Tabelas;
+﻿
+
+using Modelo.DDDa.Cadastros;
+using Modelo.DDDa.Tabelas;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
@@ -36,6 +38,6 @@ namespace DDDa.Contexts
             base.OnModelCreating(modelBuilder);
         }
 
-        public System.Data.Entity.DbSet<DDDa.Models.Cadastros.Produto> Produtoes { get; set; }
+        public System.Data.Entity.DbSet<Produto> Produtoes { get; set; }
     }
 }
